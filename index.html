@@ -5,17 +5,28 @@
     <meta charset="utf-8">
 
     <style>
+    @import url('https://fonts.googleapis.com/css2?family=Pushster&display=swap');
         body {
             width: 100%;
             padding: 20px;
             margin: 0px;
+        }
+        p {
+            font-size: 3em;
+            font-weight: bold;
+            position: absolute;
+            top: 0;
+            color: red;
+            left: 30%;
+            font-family: 'Pushster', cursive;
         }
     </style>
 </head>
 <body onresize="resizeCanvas()">
 
 <canvas id='canvas' height="600"></canvas>
-    <p>С новым годом!</p>
+<p>С новым годом!!</p>
+
     <script> 
     function MainLoop(time) {
         layer1.run(time);
